@@ -1,4 +1,5 @@
 class TimeSeries(object):
+	'''my changes'''
 	def __init__(self,data):
 		self.data = data
 		
@@ -12,6 +13,7 @@ class TimeSeries(object):
     
 
 class StepFunctionTimeSeries(TimeSeries):
+	'''other changes'''
     def get(self, x):
         closest_point = None
         for (xi, yi) in self.data:
