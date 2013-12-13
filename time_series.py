@@ -4,6 +4,8 @@ class TimeSeries(object):
 		self.data = data
 		
 	def get(self,x):
+		'''Find the corresponding y-value when given an x-value'''
+
 		for (xi,yi) in self.data:
 			if xi == x:
 				return yi
