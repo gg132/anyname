@@ -16,6 +16,7 @@ class TimeSeries(object):
 
 class StepFunctionTimeSeries(TimeSeries):
 	'''other changes'''
+	'''more changes'''
     def get(self, x):
         closest_point = None
         for (xi, yi) in self.data:
